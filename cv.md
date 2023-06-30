@@ -88,11 +88,11 @@ A website with responsive layout, portfolio, modal windows.
 
 ## Education
 
-**IT School GoIT (Kyiv)**
+__**IT School GoIT (Kyiv)**__
 
 Fullstack Developer  |    2022 - 2023
 
-**Kostyantynivskyi  Industrial College**
+__**Kostyantynivskyi  Industrial College**__
 
 Economist  |    1992 - 1995
 
@@ -100,10 +100,10 @@ Economist  |    1992 - 1995
 
 ## Languages
 
-Ukrainian   native
+- **Ukrainian**   native
 
-Russian     native
+- **Russian**     native
 
-English     intermediate
+- **English**     intermediate
 
-Spanish     intermediate \(I have been living in Spain for 1 year)
+- **Spanish**     intermediate \(I have been living in Spain for 1 year)
