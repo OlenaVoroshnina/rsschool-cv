@@ -1,1 +1,1 @@
-https://olenavoroshnina.github.io/rsschool-cv/cv.md
+https://olenavoroshnina.github.io/rsschool-cv/cv
