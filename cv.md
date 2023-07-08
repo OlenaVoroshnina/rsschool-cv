@@ -79,7 +79,7 @@ modal windows. Role: Frontend Developer.
 Developed HTML, CSS markup, functional of section
 Products
 
-- **__[Ice-cream](https://olenavoroshnina.github.io/goit-markup-hw-08/)__**   [Link](https://github.com/OlenaVoroshnina/goit-markup-hw-08)
+- **__[WebStudio](https://olenavoroshnina.github.io/goit-markup-hw-08/)__**   [Link](https://github.com/OlenaVoroshnina/goit-markup-hw-08)
 
 \[HTML, SASS, JS, REST API, AJAX, Parcel]  
 A website with responsive layout, portfolio, modal windows.
