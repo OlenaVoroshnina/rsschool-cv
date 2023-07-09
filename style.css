@@ -92,9 +92,8 @@ a{
 }
 .profile-image-container a {
   position: relative;
-  /* color: #378c3f */
 }
-/* .profile-img-container a:before {
+.profile-img-container a:before {
   content: "";
   border: 15px solid rgba(55,140,63,.6);
   border-radius: 50%;
@@ -102,29 +101,30 @@ a{
   width: 220px;
   position: absolute;
   left: 42%;
-  -webkit-animation: pulsate 1.6s ease-out;
-  animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: infinite;
+  background-color: lime;
+  animation-name: stretch;
+  animation-duration: 2.0s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
-  opacity: 0;
-  z-index: 99;
+  animation-play-state: running;
+} 
+@keyframes stretch {
+  0% {
+    transform: scale(.1);
+    background-color: rgb(11, 252, 11);
+    border-radius: 100%;
+  }
+  
+  50% {
+    background-color: rgb(65, 253, 65);
+  }
+  
+  100% {
+    transform: scale(.9);
+    background-color: #8df197;
+  }
 }
-@keyframes pulsate {
-	0% {
-		transform: scale(0.95);
-		border: 15px solid rgba(55,140,63,.6);
-	}
-
-	70% {
-		transform: scale(1);
-		border: 15px solid rgba(55,140,63,.6);
-	}
-
-	100% {
-		transform: scale(0.95);
-		border: 15px solid rgba(55,140,63,.6);
-	}
-} */
 .profile-image {
   position: relative;
   border-radius: 50%;
