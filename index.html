@@ -45,145 +45,180 @@
     <main>
       <div class="container">
         <section class="section profile" id="profile">
+          <div class="profile-img-container">
+            <a href="#">
+              <img src="./assets/img/fotoCV.jpg" alt="Personal foto" class="profile-image" >
+            </a>
+          </div>
           <h1 class="section-title profile-title">Olena Voroshnina</h1>
-          <h3 class="profile-subtitle">Junior Frontend Developer</h3>
+          <p class="profile-subtitle">Junior Frontend Developer</p>
         </section>
-        <section class="section" id="contacts">
-          <h2 class="section-title">Contacts</h2>
-          <ul class="contacts-list">
-            <li class="contacts-item">
-              <span class="contacts-text">Phone:</span>
-              +380953944565
-            </li>
-            <li class="contacts-item">
-              <span class="contacts-text">Email:</span>
-              olenav.js@gmail.com
-            </li>
-            <li class="contacts-item">
-              <span class="contacts-text">Linkedin:</span>
-              <a href="https://www.linkedin.com/in/olena-voroshnina-0b6795263/" class="contacts-link">Link</a>
-            </li>
-            <li class="contacts-item">
-              <span class="contacts-text">GitHub:</span>
-              <a href="https://github.com/OlenaVoroshnina" class="contacts-link">Link</a>
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="summary">
-          <h2 class="section-title">Summary</h2>
-          <p>
-              I am Front-end Developer with a background in accounting and
-            entrepreneurship, so I am committed to delivering high-quality
-            results in everything I do. My expertise includes proficiency in
-            HTML, CSS, JavaScript, REST API, React, Redux, and Node.js.
-            Throughout my career, I have completed three successful team
-            projects and two individual projects, demonstrating my ability
-            to excel both independently and as part of a team.
-            
-              My strengths lie in my dedication to self-development,
-            attention to detail, and effective communication skills. My
-            ultimate objective is to secure a position where I can leverage
-            my knowledge and skills to produce top-notch software
-            products that meet and exceed company objectives
-          </p>
-        </section>
-        <section class="section" id="skills">
-          <h2 class="section-title">Skills</h2>
-          <ul class="skills-list">
-            <li class="skills-item">HTML5</li>
-            <li class="skills-item">CSS3/SASS</li>
-            <li class="skills-item">JavaScript</li>
-            <li class="skills-item">React</li>
-            <li class="skills-item">Redux / Redux Toolkit</li>
-            <li class="skills-item">Rest API</li>
-            <li class="skills-item">Node.js</li>
-          </ul>
-        </section>
-        <section class="section" id="code">
-          <h2 class="section-title">Code</h2>
-        </section>
-        <section class="section" id="projects">
-          <h2 class="section-title">Projects</h2>
-          <ul class="projects-list">
-            <li class="projects-item">
-              <a href="https://olenavoroshnina.github.io/filmoteka/" class="projects-name">Filmoteka</a>
-              <a href="https://github.com/OlenaVoroshnina/filmoteka" class="projects-link">Link to code</a>
-              <span class="projects-text">[HTML, SASS, JS, REST API, AJAX, Parcel]</span>
-              <p class="projects-description">
-                A website with responsive layout for finding movies and a user library, modal windows. 
-                Role: Frontend Developer. Developed HTML, CSS markup, functional of team modal window, 
-                footer, favicon, customs scrollbar, added icons
-              </p>
-            </li>
-            <li class="projects-item">
-              <a href="https://olenavoroshnina.github.io/Ice-cream/" class="projects-name">Ice-cream</a>
-              <a href="https://github.com/OlenaVoroshnina/Ice-cream" class="projects-link">Link to code</a>
-              <span class="projects-text">[Html, Sass, JS, Rest API, Ajax, Parcel]</span>
-              <p class="projects-description">
-                Ice company website with responsive layout, burger menu,
-                modal windows. Role: Frontend Developer.
-                Developed HTML, CSS markup, functional of section Products
-              </p>
-            </li>
-            <li class="projects-item">
-              <a href="https://olenavoroshnina.github.io/goit-markup-hw-08/" class="projects-name">WebStudio</a>
-              <a href="https://github.com/OlenaVoroshnina/goit-markup-hw-08" class="projects-link">Link to code</a>
-              <span class="projects-text">[Html, Sass, JS, Rest API, Ajax, Parcel]</span>
-              <p class="projects-description">
-                A website with responsive layout, portfolio, modal windows.
-              </p>
-            </li>
-            <li class="projects-item">
-              <a href="https://olenavoroshnina.github.io/reactive-cabbage/login" class="projects-name">Reactive-cabbage</a>
-              <a href="https://github.com/OlenaVoroshnina/reactive-cabbage" class="projects-link">Link to code</a>
-              <span class="projects-text">[Html, CSS, JS, REACT, Redux/Toolkit, Emotion, Axios, React router, Rest API, Ajax]</span>
-              <p class="projects-description">
-                A website with responsive layout for calculate personal expenses and incomey, modal windows. 
-                Role: Team lead. Developed page Report, create repository, monitored the technical implementation of the project, 
-                was responsible for the quality of the code, 
-                wrote tasks related to the project for team members.
-                
-              </p>
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="education">
-          <h2 class="section-title">Education</h2>
-          <ul class="education-list">
-            <li class="education-item">
-              <p>IT School GoIT (Kyiv)</p>
-              <p>Fullstack Developer  |    2022 - 2023</p>
-            </li>
-            <li class="education-item">
-              <p>Kostyantynivskyi  Industrial College</p>
-              <p>Economist  |    1992 - 1995</p>
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="languages">
-          <h2 class="section-title">Languages</h2>
-          <ul class="languages-list">
-            <li class="languages-item">
-              Ukrainian - native
-            </li>
-            <li class="languages-item">
-              Russian - native
-            </li>
-            <li class="languages-item">
-              English - intermediate
-            </li>
-            <li class="languages-item">
-              Spanish - intermediate
-            </li>
-          </ul>
-        </section>
+        <div class="section-wrapper">
+          <section class="section wrap" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>
+                I am Front-end Developer with a background in accounting and
+              entrepreneurship, so I am committed to delivering high-quality
+              results in everything I do. My expertise includes proficiency in
+              HTML, CSS, JavaScript, REST API, React, Redux, and Node.js.
+              Throughout my career, I have completed three successful team
+              projects and two individual projects, demonstrating my ability
+              to excel both independently and as part of a team.
+              
+                My strengths lie in my dedication to self-development,
+              attention to detail, and effective communication skills. My
+              ultimate objective is to secure a position where I can leverage
+              my knowledge and skills to produce top-notch software
+              products that meet and exceed company objectives
+            </p>
+          </section>
+          <section class="section wrap" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <span class="contacts-text">Phone:</span>
+                +380953944565
+              </li>
+              <li class="contacts-item">
+                <span class="contacts-text">Email:</span>
+                olenav.js@gmail.com
+              </li>
+              <li class="contacts-item">
+                <span class="contacts-text">Linkedin:</span>
+                <a href="https://www.linkedin.com/in/olena-voroshnina-0b6795263/" class="contacts-link">Link</a>
+              </li>
+              <li class="contacts-item">
+                <span class="contacts-text">GitHub:</span>
+                <a href="https://github.com/OlenaVoroshnina" class="contacts-link">Link</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="section-wrapper">
+          <section class="section wrap" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-wrap">
+              <ul class="skills-list">
+                <li class="skills-item">HTML5</li>
+                <li class="skills-item">CSS3/SASS</li>
+                <li class="skills-item">JavaScript</li>
+                <li class="skills-item">React</li>
+              </ul>
+              <ul class="skills-list">
+                <li class="skills-item">Redux / Redux Toolkit</li>
+                <li class="skills-item">Rest API</li>
+                <li class="skills-item">Git</li>
+                <li class="skills-item">Node.js</li>
+              </ul>
+            </div>
+          </section>
+          <section class="section wrap" id="code">
+            <h2 class="section-title">Code</h2>
+            <p class="code-desc">
+              <span class="code-func">function</span> <span class="code-name">sum</span>(a, b) {<br>
+                <span class="code-func">return</span> a + b; <br>
+              } <br>
+              <span class="code-func">let</span><span class="code-res">result</span> = <span class="code-name">sum</span>(1, 2); <br>
+              <span class="code-func">alert</span>( <span class="code-res">result</span> );
+            </p>
+          </section>
+        </div>
+        <div class="section-wrapper">
+          <section class="section " id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-wrapper">
+              <ul class="projects-list wrap">
+                <li class="projects-item">
+                  <a href="https://olenavoroshnina.github.io/filmoteka/" class="projects-name education-title">Filmoteka</a>
+                  <a href="https://github.com/OlenaVoroshnina/filmoteka" class="projects-link">Link to code</a>
+                  <span class="projects-text">[HTML, SASS, JS, REST API, AJAX, Parcel]</span>
+                  <p class="projects-description">
+                    A website with responsive layout for finding movies and a user library, modal windows. 
+                    Role: Frontend Developer. Developed HTML, CSS markup, functional of team modal window, 
+                    footer, favicon, customs scrollbar, added icons
+                  </p>
+                </li>
+                <li class="projects-item">
+                  <a href="https://olenavoroshnina.github.io/Ice-cream/" class="projects-name education-title">Ice-cream</a>
+                  <a href="https://github.com/OlenaVoroshnina/Ice-cream" class="projects-link">Link to code</a>
+                  <span class="projects-text">[Html, Sass, JS, Rest API, Ajax, Parcel]</span>
+                  <p class="projects-description">
+                    Ice company website with responsive layout, burger menu,
+                    modal windows. Role: Frontend Developer.
+                    Developed HTML, CSS markup, functional of section Products
+                  </p>
+                </li>
+              </ul>
+              <ul class="projects-list wrap">
+                <li class="projects-item">
+                  <a href="https://olenavoroshnina.github.io/reactive-cabbage/login" class="projects-name education-title">Reactive-cabbage</a>
+                  <a href="https://github.com/OlenaVoroshnina/reactive-cabbage" class="projects-link">Link to code</a>
+                  <span class="projects-text">[Html, CSS, JS, REACT, Redux/Toolkit, Emotion, Axios, React router, Rest API, Ajax]</span>
+                  <p class="projects-description">
+                    A website with responsive layout for calculate personal expenses and incomey, modal windows. 
+                    Role: Team lead. Developed page Report, create repository, monitored the technical implementation of the project, 
+                    was responsible for the quality of the code, 
+                    wrote tasks related to the project for team members.
+                  </p>
+                </li>
+                <li class="projects-item">
+                  <a href="https://olenavoroshnina.github.io/goit-markup-hw-08/" class="projects-name education-title">WebStudio</a>
+                  <a href="https://github.com/OlenaVoroshnina/goit-markup-hw-08" class="projects-link">Link to code</a>
+                  <span class="projects-text">[Html, Sass, JS, Rest API, Ajax, Parcel]</span>
+                  <p class="projects-description">
+                    A website with responsive layout, portfolio, modal windows.
+                  </p>
+                </li>
+              </ul>
+            </div> 
+          </section>
+        </div>     
+        <div class="section-wrapper">
+          <section class="section wrap" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="education-list">
+              <li class="education-item">
+                <p class="education-title">IT School GoIT (Kyiv)</p>
+                <p>Fullstack Developer  |    2022 - 2023</p>
+              </li>
+              <li class="education-item">
+                <p class="education-title">Kostyantynivskyi  Industrial College</p>
+                <p>Economist  |    1992 - 1995</p>
+              </li>
+            </ul>
+          </section>
+          <section class="section wrap" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="languages-list">
+              <li class="languages-item">
+                <span class="education-title">Ukrainian</span> - native
+              </li>
+              <li class="languages-item">
+                <span class="education-title">Russian</span>  - native
+              </li>
+              <li class="languages-item">
+                <span class="education-title">English</span> - intermediate
+              </li>
+              <li class="languages-item">
+                <span class="education-title">Spanish</span> - intermediate
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
     </main>
-    <footer>
-      <div class="container">
-        <a href="https://rs.school/js/" class="footer-link">The Rolling Scopes</a>
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <a href="https://rs.school/js/" class="footer-link">
+          <img src="./assets/svg/rs_school_js.svg" alt="RSSchool" width="140">
+        </a>
         <h2 class="footer-title">Olena Voroshnina</h2>
-        <a href="https://github.com/OlenaVoroshnina" class="footer-link">GitHub</a>
+        <div class="footer-card">
+          <a href="https://github.com/OlenaVoroshnina" class="footer-link">
+            <img src="./assets/svg/github.svg" alt="Github">
+          </a>
+          <span>2023</span>
+        </div>
       </div>
     </footer>
   </body>
